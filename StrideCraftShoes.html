@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrideCraft Shoes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+            padding: 10px;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #a16342;
+        }
+
+        .specials-container, .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .special-item, .menu-items li {
+            flex: 1 1 200px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+            margin-top: 40px;
+        }
+
+        footer a img {
+            width: 24px;
+            margin: 0 10px;
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        input, textarea, select {
+            padding: 10px;
+            font-size: 1rem;
+        }
+
+        button {
+            background-color: #a16342;
+            color: white;
+            padding: 10px;
+            border: none;
+            font-size: 1rem;
+        }
+
+        h3 {
+            border-bottom: 2px solid #a16342;
+            padding-bottom: 5px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>StrideCraft Shoes</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#collection">Collection</a></li>
+            <li><a href="#order">Order Online</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Featured Shoes</h2>
+        <p>Explore our latest footwear styles crafted for comfort and performance.</p>
+        <div class="specials-container">
+            <div class="special-item">
+                <h3>Urban Trekker</h3>
+                <img src="images/urban_trekker.avif.avif" alt="Urban Trekker">
+                <p>Rugged comfort, ideal for city strolls.</p>
+            </div>
+            <div class="special-item">
+                <h3>Peak Performance</h3>
+                <img src="images/peak_performance.avif.avif" alt="Peak Performance">
+                <p>Engineered for all-day wear and high activity.</p>
+            </div>
+            <div class="special-item">
+                <h3>Classic Loafers</h3>
+                <img src="images/classic_loafers.avif.avif" alt="Classic Loafers">
+                <p>Elegant, versatile style for every occasion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>StrideCraft Shoes is committed to delivering comfort, durability, and style. Our products are crafted with the finest materials to meet your lifestyle and fashion needs.</p>
+    </section>
+
+    <section id="collection">
+        <h2>Our Collection</h2>
+
+        <h3>Men's Collection</h3>
+        <ul class="menu-items">
+            <li><img src="images/mens_oxford.avif.avif" alt="Oxford"><strong>Classic Oxford</strong><p>Formal leather lace-ups.</p></li>
+            <li><img src="images/mens_loafers.avif.avif" alt="Loafers"><strong>Leather Loafers</strong><p>Stylish slip-ons for comfort.</p></li>
+            <li><img src="images/mens_sneakers.avif.avif" alt="Sneakers"><strong>Urban Sneakers</strong><p>Everyday modern comfort.</p></li>
+            <li><img src="images/mens_boots.avif.avif" alt="Boots"><strong>Rugged Boots</strong><p>Adventurous style boots.</p></li>
+        </ul>
+
+        <h3>Women's Collection</h3>
+        <ul class="menu-items">
+            <li><img src="images/womens_heels.avif.avif" alt="Heels"><strong>Stiletto Heels</strong><p>Chic and confident wear.</p></li>
+            <li><img src="images/womens_flats.avif.avif" alt="Flats"><strong>Chic Flats</strong><p>Everyday classic comfort.</p></li>
+            <li><img src="images/womens_sneakers.avif.avif" alt="Sneakers"><strong>Active Sneakers</strong><p>Designed with flair.</p></li>
+            <li><img src="images/womens_boots.avif.avif" alt="Boots"><strong>Ankle Boots</strong><p>Trendy seasonal boots.</p></li>
+        </ul>
+
+        <h3>Kids' Collection</h3>
+        <ul class="menu-items">
+            <li><img src="images/kids_sneakers.avif.avif" alt="Kids Sneakers"><strong>Play Sneakers</strong><p>For little explorers.</p></li>
+            <li><img src="images/kids_sandals.avif.avif" alt="Sandals"><strong>Summer Sandals</strong><p>Cool and comfy.</p></li>
+            <li><img src="images/kids_boots.avif.avif" alt="Boots"><strong>Adventure Boots</strong><p>Fun outdoor adventures.</p></li>
+            <li><img src="images/kids_formal.avif.avif" alt="Formal"><strong>Mini Formals</strong><p>For special occasions.</p></li>
+        </ul>
+    </section>
+
+    <section id="order">
+        <h2>Order Online</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Product Name" required>
+            <select required>
+                <option value="">Select Size</option>
+                <option>UK 6</option>
+                <option>UK 7</option>
+                <option>UK 8</option>
+                <option>UK 9</option>
+                <option>UK 10</option>
+            </select>
+            <textarea placeholder="Shipping Address" rows="4" required></textarea>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; StrideCraft Shoes - All Rights Reserved</p>
+        <div>
+            <p>Follow us on:</p>
+            <a href="https://www.facebook.com/stridecraftshoes" target="_blank"><img src="images/facebook_icon.avif.avif" alt="Facebook"></a>
+            <a href="https://www.instagram.com/stridecraftshoes" target="_blank"><img src="images/instagram_icon.avif.avif" alt="Instagram"></a>
+            <a href="https://www.twitter.com/stridecraftshoes" target="_blank"><img src="images/twitter_icon.avif.avif" alt="Twitter"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
